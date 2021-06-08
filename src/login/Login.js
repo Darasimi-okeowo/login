@@ -3,6 +3,8 @@ import "./Login.css";
 import { RiLockPasswordLine, RiLinkedinLine } from "react-icons/ri";
 import { FiFacebook, FiTwitter } from "react-icons/fi";
 import { AiOutlineInstagram, AiOutlineUser } from "react-icons/ai";
+import text from './text.svg'
+import man from './man.svg'
 import { SiGmail } from "react-icons/si";
 
 const Login = () => {
@@ -78,7 +80,25 @@ const Login = () => {
         </div>
       </div>
 
-      <div className="panels-container"></div>
+      <div className="panels-container">
+        <div className='panel left-panel'>
+          <div className='content'>
+              <h3>New here?</h3>
+              <p>Lorem iphcvxs bnbxjkhjgvb saugshxbn wss huiwkjdnsmxbn dsjxghvnewdschbn dsxjhgvnewdsxuidwjhq,samxcnd w  kjhwgdsnjliddwhsxbndjwrhdnsx?</p>
+              <button className='btn transparent' id='sign-up-btn'>Sign Up</button>
+          </div>
+          <img src={text} alt='' className='image'/>
+        </div>
+
+        <div className='panel right-panel'>
+          <div className='content'>
+              <h3>One of us?</h3>
+              <p>Lorem iphcvxs bnbxjkhjgvb saugshxbn wss huiwkjdnsmxbn dsjxghvnewdschbn dsxjhgvnewdsxuidwjhq,samxcnd w  kjhwgdsnjliddwhsxbndjwrhdnsx?</p>
+              <button className='btn transparent' id='sign-in-btn'>Sign In</button>
+          </div>
+          <img src={man} alt='' className='image'/>
+        </div>
+      </div>
     </div>
   );
 };
