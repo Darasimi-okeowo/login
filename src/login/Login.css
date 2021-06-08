@@ -64,3 +64,71 @@ form{
     color: #aaa;
     font-weight: 500;
 }
+
+.btn{
+    width: 15rem;
+    height: 4.9rem;
+    border: none;
+    outline: none;
+    border-radius: 4.9rem;
+    cursor: pointer;
+    background-color: #5995fd;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #4d84e2;
+}
+
+.social-text{
+    padding: .7rem 0;
+    font-size: 1rem;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    height: 4.6rem;
+    width: 4.6rem;
+    border: 2px solid black;
+    margin: 0 .45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 1.1rem;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
