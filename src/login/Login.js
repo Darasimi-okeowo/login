@@ -41,6 +41,37 @@ const Login = () => {
               </p>
             </div>
           </form>
+
+          <form action="" className="signin-form">
+            <h2 className="title">Sign in</h2>
+            <div className="input-field">
+              <div className='i'><FaUser /></div>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div className="input-field">
+              <div className='i'><FaLock /></div>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" className="btn solid" />
+
+            <p className="social-text">
+              Or Sign in with other social platforms
+            </p>
+            <div className="social-media">
+              <p className='social-icon'>
+                <FiFacebook />
+              </p>
+              <p className='social-icon'>
+                <AiOutlineTwitter />
+              </p>
+              <p className='social-icon'>
+                <FaLinkedinIn />
+              </p>
+              <p className='social-icon'>
+                <AiOutlineInstagram />
+              </p>
+            </div>
+          </form>
         </div>
       </div>
 
