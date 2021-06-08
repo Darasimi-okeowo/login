@@ -10,19 +10,52 @@ body, input{
     overflow: hidden;
 }
 
-/* .forms-container{
+.container::before{
+    content: '';
+    position: absolute;
+    width: 200rem;
+    height: 200rem;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #4481eb, #04befe);
+}
+
+.forms-container{
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-} */
+}
+
+.signin-signup{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 
 form{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 5rem;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+form.signin-form{
+    z-index: 2;
+}
+
+form.signup-form{
+    z-index: 2;
+    opacity: 0;
 }
 
 .title{
