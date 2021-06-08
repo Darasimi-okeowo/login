@@ -1,0 +1,11 @@
+body, input{
+    font-family: 'Poppins' sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
