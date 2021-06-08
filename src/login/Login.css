@@ -20,6 +20,7 @@ body, input{
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
+    z-index: 6;
 }
 
 .forms-container{
@@ -38,6 +39,7 @@ body, input{
     width: 50%;
     display: grid;
     grid-template-columns: 1fr;
+    z-index: 5;
 }
 
 
@@ -167,13 +169,16 @@ form.signup-form{
     align-items: flex-end;
     justify-content: space-around;
     text-align: center;
+    z-index: 7;
 }
 
 .left-panel{
+    pointer-events: all;
     padding: 3rem 17% 2rem 12%;
 }
 
 .right-panel{
+    pointer-events: none;
     padding: 3rem 12% 2rem 17%;
     width: 80%;
 }
