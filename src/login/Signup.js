@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Login.css";
 import { SiGmail } from "react-icons/si";
 import { RiLockPasswordLine, RiLinkedinLine } from "react-icons/ri";
 import { FiFacebook, FiTwitter } from "react-icons/fi";
@@ -25,7 +26,7 @@ const Signup = () => {
   };
   return (
     <div>
-      <form action="" className="signup-form">
+      <form action="" className="signup-form1">
         <h2 className="title">Sign up</h2>
         <div className="input-field">
           <div className="i">

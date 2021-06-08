@@ -5,14 +5,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Switch>
-          <Route exact path="/" component={Login} />
-          <Route path="/subscription" component={Signup} />
+          <Route path="/" exact component={Login} />
+          <Route path="/Signup" component={Signup} />
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
