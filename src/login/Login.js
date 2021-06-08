@@ -14,11 +14,11 @@ const Login = () => {
           <form action="" className="signin-form">
             <h2 className="title">Sign in</h2>
             <div className="input-field">
-              <FaUser />
+              <div className='i'><FaUser /></div>
               <input type="text" placeholder="Username" />
             </div>
             <div className="input-field">
-              <FaLock />
+              <div className='i'><FaLock /></div>
               <input type="password" placeholder="Password" />
             </div>
             <input type="submit" value="Login" className="btn solid" />
