@@ -105,6 +105,13 @@ form{
     color: #333;
     font-size: 1.1rem;
     border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.social-icon:hover{
+    color: #4481eb;
+    border-color: #4481eb;
 }
 
 
